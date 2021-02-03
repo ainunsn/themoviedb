@@ -1,0 +1,22 @@
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: hidden;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu .scrolablle_item {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+}
+
+.image-scrollable:hover {
+  transform: scale(1.4);
+  z-index: 10;
+}

@@ -1,0 +1,11 @@
+@import '../../constants.css';
+
+
+.footer {
+    background-color: var(--orange);
+    text-align: center;
+    color: var(--white);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
